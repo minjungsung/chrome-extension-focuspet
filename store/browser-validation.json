@@ -1,0 +1,17 @@
+{
+  "extension": "focuspebble",
+  "validated": true,
+  "popup": {
+    "height": 600,
+    "width": 400,
+    "title": "FocusPebble"
+  },
+  "checks": [
+    "start",
+    "pause",
+    "alarm",
+    "notification",
+    "single completion"
+  ],
+  "fixture": "Fictional local example domains and data; isolated browser profile"
+}

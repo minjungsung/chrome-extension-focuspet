@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {remaining,finishTimer,localDay} from '../extension/model.js';
+test('remaining time uses absolute deadline across restarts',()=>{assert.equal(remaining({running:true,endAt:10000},7500),2500);assert.equal(remaining({running:true,endAt:10000},11000),0);assert.equal(remaining({running:false,remaining:3200},90000),3200);});
+test('records expired focus once and assigns its planned completion day',()=>{const endAt=new Date(2026,1,2,23,59).getTime();const done=finishTimer({running:true,endAt,mode:'focus'}, {},endAt+100000);assert.equal(done.stats[localDay(endAt)],1);assert.equal(finishTimer(done.timer,done.stats,endAt+200000),null);});
+test('breaks do not increase focus count and future alarms do not complete',()=>{assert.equal(finishTimer({running:true,endAt:1000,mode:'focus'}, {},999),null);assert.deepEqual(finishTimer({running:true,endAt:1000,mode:'short'}, {},1001).stats,{});});
