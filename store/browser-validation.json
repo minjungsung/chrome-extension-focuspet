@@ -1,17 +1,18 @@
 {
-  "extension": "focuspebble",
+  "extension": "focuspet",
+  "version": "1.1.0",
   "validated": true,
   "popup": {
     "height": 600,
     "width": 400,
-    "title": "FocusPebble"
+    "title": "FocusPet"
   },
   "checks": [
-    "start",
+    "persistent timer",
     "pause",
-    "alarm",
-    "notification",
-    "single completion"
+    "alarm notification",
+    "pet growth once",
+    "pet customization"
   ],
-  "fixture": "Fictional local example domains and data; isolated browser profile"
+  "fixture": "Isolated browser with fictional example domains and local data"
 }

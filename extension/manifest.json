@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "FocusPebble",
-  "version": "1.0.0",
-  "description": "A simple focus and break timer with browser notifications. Keep your timer across restarts and build a daily focus habit.",
+  "name": "FocusPet",
+  "version": "1.1.0",
+  "description": "Grow a tiny cat or bunny with each focus session. A cute Pomodoro companion with persistent timers, streaks, and gentle reminders.",
   "permissions": [
     "storage",
     "alarms",
@@ -10,7 +10,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "FocusPebble"
+    "default_title": "FocusPet"
   },
   "icons": {
     "16": "icons/icon16.png",

@@ -1,8 +1,8 @@
-# FocusPebble
+# FocusPet
 
 ## Category
 
-Productivity
+Workflow & Planning
 
 ## Language
 
@@ -10,17 +10,23 @@ English
 
 ## Description
 
-FocusPebble is a small focus timer that stays out of your way. Start a focus session, close the popup, and get a browser notification when it finishes.
+A little friend for your next small win.
+
+Meet Mochi. Choose a tiny cat or bunny, give your friend a name, and focus on one thing together. Completed focus sessions help your companion grow through four stages.
 
 FEATURES
-- Focus, short break, and long break modes.
-- Adjustable focus and short-break durations; a 15-minute long break.
-- Pause, resume, and reset controls.
-- An absolute deadline that survives popup closure and browser restart.
-- Local daily counts for completed focus sessions.
-- A toolbar badge while the timer is running.
+- Choose a cat or bunny and customize its name.
+- Grow your companion by finishing focus sessions.
+- Set a task intention and use focus, short-break, or long-break timers.
+- Pause, resume, reset, and adjust focus and short-break durations.
+- Get completion notifications and a running toolbar badge.
+- See daily counts, a recent streak, and weekly focus progress.
 
-The timer does not block websites or start the next session automatically. Browser notifications depend on Chrome and operating-system notification settings. If the computer sleeps or Chrome is closed, a notification can arrive after waking or reopening Chrome.
+GOOD TO KNOW
+Your companion is a visual focus aid, not a website blocker. Timers use absolute deadlines and keep their state across popup closure and browser restarts. Notifications can arrive late if Chrome is closed, the device is asleep, or operating-system notification settings block them. FocusPet does not automatically start the next session. Growth reflects completed focus sessions, not measured attention.
 
-PRIVACY
-Timer state, durations, and daily completion counts stay on this device. No accounts, analytics, advertising, or developer servers.
+PRIVATE BY DEFAULT
+No account, analytics, advertising, cloud synchronization, or developer servers. Processing happens on your device. Saved data uses local extension storage. Exported files may contain private information; keep them somewhere you trust.
+
+SUPPORT
+Report bugs or suggestions through the support link. Please remove private URLs, notes, and credentials from reports.
