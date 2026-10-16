@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "FocusPet",
-  "version": "1.1.0",
-  "description": "Grow a tiny cat or bunny with each focus session. A cute Pomodoro companion with persistent timers, streaks, and gentle reminders.",
+  "version": "1.2.0",
+  "description": "Start a 5, 15, or 25-minute focus session with a tiny cat or bunny. No setup, pet chores, or account required.",
   "permissions": [
     "storage",
     "alarms",

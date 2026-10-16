@@ -1,33 +1,13 @@
-# FocusPet walkthrough
+# FocusPet guided demo
 
-Watch the [MP4 demo](walkthrough.mp4) or the animated walkthrough below. These are guided captures of the actual Chrome extension UI, using a disposable profile and fictional example URLs. The video advances between action frames; it is not continuous screen recording.
+Version 1.2.0. Actual Chrome extension actions captured as guided frames, not a continuous screen recording. Fictional example domains and article text in an isolated disposable profile.
 
-![FocusPet animated walkthrough](walkthrough.gif)
-
-## 1. Meet your focus friend
-
-Choose a tiny cat or bunny. Your companion stays inside the extension.
-
-## 2. Make the companion yours
-
-Pick a bunny and give it a name.
-
-## 3. Start one small task
-
-The timer continues after you close the popup.
-
-## 4. Pause when you need to
-
-Resume, reset, or choose a break. Switching modes stops the current timer.
-
-## 5. Completed sessions help your friend grow
-
-Demo fast-forward: three prior sessions are seeded and this timer ends early.
-
-## 6. See your weekly rhythm
-
-Adjust durations and see recent focus counts. Progress stays on your device.
-
-## Timing disclosure
+[Watch MP4](walkthrough.mp4) · [Animated GIF](walkthrough.gif) · [Browser player](index.html)
 
 Completion demo seeds three prior focus sessions and a 500 ms deadline; no real 25-minute wait.
+
+1. **Mochi is ready when you are** — A cat is already here. No task entry, naming or pet chores required.
+2. **Start with five small minutes** — Choose 5, 15 or 25 minutes. The timer continues when this popup closes.
+3. **Pause without losing your place** — Resume keeps the time left. Your friend never needs feeding or care.
+4. **One win, one flower** — Demo fast-forward: three prior sessions are seeded; this timer ends early.
+5. **One click starts your break** — Take a breath with your friend. Another focus session waits until you choose it.

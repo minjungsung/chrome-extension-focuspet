@@ -1,17 +1,22 @@
 # FocusPet
 
-A little friend for your next small win.
+Five small minutes. One happy friend.
 
-Meet Mochi. Choose a tiny cat or bunny, give your friend a name, and focus on one thing together. Completed focus sessions help your companion grow through four stages.
+Mochi is already waiting. Start a focus session without a task, account, or pet setup. Completed sessions earn visible accessories; your friend never needs feeding or chores.
+
+## See it work
+
+![Actual Chrome walkthrough](store/demo/walkthrough.gif)
+
+[Video and steps](store/demo/README.md). Fictional demo data; FocusPet completion is accelerated and disclosed.
 
 ## Features
 
-- Choose a cat or bunny and customize its name.
-- Grow your companion by finishing focus sessions.
-- Set a task intention and use focus, short-break, or long-break timers.
-- Pause, resume, reset, and adjust focus and short-break durations.
-- Get completion notifications and a running toolbar badge.
-- See daily counts, a recent streak, and weekly focus progress.
+- Start immediately with the default cat and 25-minute timer.
+- Choose 5, 15 or 25 minutes; pause and resume.
+- Completed focus sessions grow your friend through four accessory stages.
+- Start a short break with one click after completion.
+- Optional cat/bunny customization, tasks, duration settings and weekly counts.
 
 ## Limits
 
@@ -19,9 +24,7 @@ Your companion is a visual focus aid, not a website blocker. Timers use absolute
 
 ## Development
 
-Open `chrome://extensions`, enable Developer mode, choose **Load unpacked**, and select `extension/`. All runtime assets are packaged locally.
-
-Run `npm test` for logic tests. Run `npm run package` to validate and create an upload ZIP in `dist/`. No build step or runtime package dependencies are required.
+Load `extension/` unpacked in Chrome Developer mode. Run `npm test` and `npm run package`. There is no runtime dependency or build step.
 
 ## Privacy
 
@@ -29,18 +32,12 @@ Local data includes timer state, durations, task intention, companion type and n
 
 `storage` persists timer state and companion progress. `alarms` schedules timer completion. `notifications` displays generic completion messages.
 
-See [PRIVACY.md](PRIVACY.md). No developer servers, advertising, or analytics.
+See [PRIVACY.md](PRIVACY.md). No accounts, ads or analytics.
 
-## Support
+## Product evidence
 
-Report reproducible bugs through this repository's issue tracker. Remove private information first.
+[Market analysis and validation plan](docs/market-analysis.md). Adoption remains unvalidated.
 
-## License
+## Support and license
 
-MIT.
-
-## See it in action
-
-![FocusPet demo](store/demo/walkthrough.gif)
-
-[Watch the MP4](store/demo/walkthrough.mp4) · [Read the step-by-step guide](store/demo/README.md)
+Use the repository issue tracker; remove private information. MIT.

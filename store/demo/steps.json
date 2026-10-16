@@ -1,40 +1,35 @@
 {
   "name": "FocusPet",
   "slug": "focuspet",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "Actual Chrome extension UI, recorded as step-by-step frames",
   "fixture": "Disposable profile; fictional example URLs and article text",
   "fastForward": "Completion demo seeds three prior focus sessions and a 500 ms deadline; no real 25-minute wait.",
   "steps": [
     {
       "file": "step-01.png",
-      "title": "Meet your focus friend",
-      "caption": "Choose a tiny cat or bunny. Your companion stays inside the extension."
+      "title": "Mochi is ready when you are",
+      "caption": "A cat is already here. No task entry, naming or pet chores required."
     },
     {
       "file": "step-02.png",
-      "title": "Make the companion yours",
-      "caption": "Pick a bunny and give it a name."
+      "title": "Start with five small minutes",
+      "caption": "Choose 5, 15 or 25 minutes. The timer continues when this popup closes."
     },
     {
       "file": "step-03.png",
-      "title": "Start one small task",
-      "caption": "The timer continues after you close the popup."
+      "title": "Pause without losing your place",
+      "caption": "Resume keeps the time left. Your friend never needs feeding or care."
     },
     {
       "file": "step-04.png",
-      "title": "Pause when you need to",
-      "caption": "Resume, reset, or choose a break. Switching modes stops the current timer."
+      "title": "One win, one flower",
+      "caption": "Demo fast-forward: three prior sessions are seeded; this timer ends early."
     },
     {
       "file": "step-05.png",
-      "title": "Completed sessions help your friend grow",
-      "caption": "Demo fast-forward: three prior sessions are seeded and this timer ends early."
-    },
-    {
-      "file": "step-06.png",
-      "title": "See your weekly rhythm",
-      "caption": "Adjust durations and see recent focus counts. Progress stays on your device."
+      "title": "One click starts your break",
+      "caption": "Take a breath with your friend. Another focus session waits until you choose it."
     }
   ]
 }

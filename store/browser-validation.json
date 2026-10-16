@@ -1,18 +1,15 @@
 {
   "extension": "focuspet",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "validated": true,
-  "popup": {
-    "height": 600,
-    "width": 400,
-    "title": "FocusPet"
-  },
   "checks": [
-    "persistent timer",
-    "pause",
-    "alarm notification",
-    "pet growth once",
-    "pet customization"
+    "no task or pet setup required",
+    "fresh 5-minute preset label",
+    "pause/resume",
+    "deadline completion",
+    "growth rewarded once",
+    "one-click short break"
   ],
-  "fixture": "Isolated browser with fictional example domains and local data"
+  "fixture": "Disposable Chrome profile; fictional example domains; no account required",
+  "limitations": "Functional checks do not measure user demand or retention. Focus completion was accelerated as disclosed in the demo."
 }
