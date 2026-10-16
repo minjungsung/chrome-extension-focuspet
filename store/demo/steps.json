@@ -1,0 +1,40 @@
+{
+  "name": "FocusPet",
+  "slug": "focuspet",
+  "version": "1.1.0",
+  "type": "Actual Chrome extension UI, recorded as step-by-step frames",
+  "fixture": "Disposable profile; fictional example URLs and article text",
+  "fastForward": "Completion demo seeds three prior focus sessions and a 500 ms deadline; no real 25-minute wait.",
+  "steps": [
+    {
+      "file": "step-01.png",
+      "title": "Meet your focus friend",
+      "caption": "Choose a tiny cat or bunny. Your companion stays inside the extension."
+    },
+    {
+      "file": "step-02.png",
+      "title": "Make the companion yours",
+      "caption": "Pick a bunny and give it a name."
+    },
+    {
+      "file": "step-03.png",
+      "title": "Start one small task",
+      "caption": "The timer continues after you close the popup."
+    },
+    {
+      "file": "step-04.png",
+      "title": "Pause when you need to",
+      "caption": "Resume, reset, or choose a break. Switching modes stops the current timer."
+    },
+    {
+      "file": "step-05.png",
+      "title": "Completed sessions help your friend grow",
+      "caption": "Demo fast-forward: three prior sessions are seeded and this timer ends early."
+    },
+    {
+      "file": "step-06.png",
+      "title": "See your weekly rhythm",
+      "caption": "Adjust durations and see recent focus counts. Progress stays on your device."
+    }
+  ]
+}
