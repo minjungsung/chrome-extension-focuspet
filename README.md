@@ -22,6 +22,10 @@ Mochi is already waiting. Start a focus session without a task, account, or pet 
 
 Your companion is a visual focus aid, not a website blocker. Timers use absolute deadlines and keep their state across popup closure and browser restarts. Notifications can arrive late if Chrome is closed, the device is asleep, or operating-system notification settings block them. FocusPet does not automatically start the next session. Growth reflects completed focus sessions, not measured attention.
 
+## Feedback
+
+The help page links to honest Chrome Web Store reviews. An optional, dismissible notice appears after repeated successful use across at least one week; preferences stay on this device.
+
 ## Development
 
 Load `extension/` unpacked in Chrome Developer mode. Run `npm test` and `npm run package`. There is no runtime dependency or build step.

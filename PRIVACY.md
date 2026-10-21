@@ -1,6 +1,6 @@
 # FocusPet privacy policy
 
-Effective date: 2026-10-16.
+Effective date: 2026-10-21.
 
 ## Data and access
 
@@ -9,6 +9,10 @@ Local data includes timer state, durations, task intention, companion type and n
 `storage` persists timer state and companion progress. `alarms` schedules timer completion. `notifications` displays generic completion messages.
 
 Processing is local. The developer receives no extension data. No accounts, cloud sync, ads, analytics or remote executable code. Google and Chrome have separate privacy policies.
+
+## Optional feedback
+
+Successful-use counts, activity dates, and a dismissal/opened preference are stored locally for an optional one-time review notice after at least five uses on three days spanning one week. No feedback telemetry is transmitted. The help page always links to the store review page, regardless of usage or satisfaction.
 
 ## Control and retention
 

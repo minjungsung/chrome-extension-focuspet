@@ -1,18 +1,18 @@
 # FocusPet
 
-## Category
+## Store fields
 
-Workflow & Planning
-
-## Language
-
-English
+- Title: FocusPet: Focus Timer & Virtual Pet
+- Summary: A focus timer with a virtual cat or bunny. Choose 5, 15, or 25 minutes, complete sessions, and unlock pet accessories.
+- Category: Workflow & Planning
+- Language: English
 
 ## Description
 
-Five small minutes. One happy friend.
+FocusPet is a focus timer with a tiny virtual cat or bunny to keep you company. Start a 5, 15, or 25-minute session, finish one small task, and earn accessories for your companion.
 
-Mochi is already waiting. Start a focus session without a task, account, or pet setup. Completed sessions earn visible accessories; your friend never needs feeding or chores.
+GET STARTED
+Open FocusPet, choose a duration, and click Start focus. No account, task entry, or pet setup is required. After completion, choose a short break.
 
 FEATURES
 - Start immediately with the default cat and 25-minute timer.
